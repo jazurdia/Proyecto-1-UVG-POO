@@ -35,10 +35,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
             ScoreCounter scorecounter = pool.getScoreCounter();
             scorecounter.takescore();
         }
-        if (Greenfoot.isKeyDown("down"))
-        {
-            turn(180);
-        }
         if (Greenfoot.isKeyDown("left"))
         {
             turn(-90);
