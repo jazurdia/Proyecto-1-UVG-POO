@@ -25,7 +25,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
     int n = 0;
     public void moveAndTurn()
     {
-        move (2+n);
+        move (3+n);
         
         if (Greenfoot.isKeyDown("space"))
         {

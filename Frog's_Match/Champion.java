@@ -24,7 +24,7 @@ public class Champion extends Actor
     
     public void moveAndTurn()
     {
-        move (5);
+        move (4);
         if (getY() == getWorld().getHeight())
         {
             turn(180);
